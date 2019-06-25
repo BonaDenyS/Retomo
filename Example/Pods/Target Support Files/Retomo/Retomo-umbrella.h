@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Retomo.h"
 
 FOUNDATION_EXPORT double RetomoVersionNumber;
 FOUNDATION_EXPORT const unsigned char RetomoVersionString[];

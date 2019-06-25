@@ -7,6 +7,8 @@
 //
 
 #import "RMViewController.h"
+#import "RMModel.h"
+#import <Retomo/Retomo.h>
 
 @interface RMViewController ()
 
@@ -17,6 +19,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    Retomo * request = [[Retomo alloc]init];
+    [request setup:@"https://dl.dropboxusercontent.com/s/2iodh4vg0eortkl/facts.json" setMethod:GET setHeader:nil withCompletion:^(NSDictionary * result) {
+        RMModel *model = [[RMModel alloc]init:result];
+        NSLog(@"Title: %@",model.title);
+        NSLog(@"Rows: %@",[model.rows[0] valueForKey:@"title"]);
+    }];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
