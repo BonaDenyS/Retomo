@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Retomo_Example' do
+  pod 'Retomo', :path => '../'
+
+  target 'Retomo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
