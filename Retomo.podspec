@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Retomo/Classes/**/*'
+  s.source_files = 'Classes/*'
   
   # s.resource_bundles = {
   #   'Retomo' => ['Retomo/Assets/*.png']
