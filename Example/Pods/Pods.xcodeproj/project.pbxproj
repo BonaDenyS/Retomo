@@ -6,18 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4322327592F9EE83951358285A2C8282 /* Retomo */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DEF06557BB57295B9AE7CA5B0ACDAE1F /* Build configuration list for PBXAggregateTarget "Retomo" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Retomo;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0D071756E737D8B55D976D0FDF144DAF /* Pods-Retomo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 279D51C99A87FDC0757B32BCBEAF09F7 /* Pods-Retomo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D071756E737D8B55D976D0FDF144DAF /* Pods-Retomo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9958183CF1F3750547CADADEE6E17897 /* Pods-Retomo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F56C1AE97C2121FEF0341EFC6578004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		633D6D72EEC2A6977E5EFB245339F5E7 /* Pods-Retomo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5D3B15A1FB8773F04E7C12D45DF79 /* Pods-Retomo_Example-dummy.m */; };
-		6F6811330C746337B277F5A0B3FB3585 /* Retomo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2063F0B4F3D4E62CF5513BF51B98C1B7 /* Retomo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633D6D72EEC2A6977E5EFB245339F5E7 /* Pods-Retomo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2442402D4EFAF6248B47E2F4F32D6AA0 /* Pods-Retomo_Example-dummy.m */; };
 		755D2331A208BE5DEC5B82F11B77FB4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9D16FBD1692FDD4586D747B7C73AB2D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A455D9D5DFF1B8106059F2E30F982E57 /* Pods-Retomo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C940C6F266FC123529F945F2385645 /* Pods-Retomo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA6A4819890FE005B3E8C1F31F219FB2 /* Retomo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC57283E0BAB2DECFCD304D24085D051 /* Retomo-dummy.m */; };
-		AFE2C77DA56C791738A2AB21A11262BF /* Retomo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 053051A54B0B9A16A63935751289866D /* Retomo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7DAE2B523CA030AADCFF19809194F6C /* Pods-Retomo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2765C738AB21A51014D950D9D276B3C8 /* Pods-Retomo_Tests-dummy.m */; };
-		F49CC6C98294E4B76E845E0876B179B1 /* Retomo.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CA0F224E38D190280F9D4DA9C97EDB /* Retomo.m */; };
+		A455D9D5DFF1B8106059F2E30F982E57 /* Pods-Retomo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B5EF8B67C12993EA7FDF8091150715 /* Pods-Retomo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7DAE2B523CA030AADCFF19809194F6C /* Pods-Retomo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C66979C924A5C9773B1FFD0EA32B8D80 /* Pods-Retomo_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,38 +46,29 @@
 
 /* Begin PBXFileReference section */
 		0395BCBF1BBBD7A9663B9B95E52AE626 /* Pods_Retomo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Retomo_Tests.framework; path = "Pods-Retomo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		053051A54B0B9A16A63935751289866D /* Retomo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Retomo-umbrella.h"; sourceTree = "<group>"; };
-		111F75EA99498F438DD2C2403C9A7C9F /* Retomo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Retomo-Info.plist"; sourceTree = "<group>"; };
-		1195363BA01434C9F4EA2FD55193D33D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		11CA0F224E38D190280F9D4DA9C97EDB /* Retomo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Retomo.m; path = Retomo/Classes/Retomo.m; sourceTree = "<group>"; };
-		1F2321A7C0CE03AC598506CFCC07B958 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2063F0B4F3D4E62CF5513BF51B98C1B7 /* Retomo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Retomo.h; path = Retomo/Classes/Retomo.h; sourceTree = "<group>"; };
-		2765C738AB21A51014D950D9D276B3C8 /* Pods-Retomo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Retomo_Tests-dummy.m"; sourceTree = "<group>"; };
-		279D51C99A87FDC0757B32BCBEAF09F7 /* Pods-Retomo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Retomo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		08F6F4834171F3D127FEB36D68783F16 /* Retomo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Retomo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2442402D4EFAF6248B47E2F4F32D6AA0 /* Pods-Retomo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Retomo_Example-dummy.m"; sourceTree = "<group>"; };
+		24B41FF7B2757CDABF75573721892C49 /* Pods-Retomo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Retomo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		42349282B791B5ADF83DE4A741EBE672 /* Retomo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Retomo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		57D7FB1BC3B5D0E63844E92DFE86AD6D /* Pods-Retomo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Retomo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		693DC0E05CB2456B264A4B0085BBA9FA /* Pods-Retomo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Retomo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		70E8FCFDE974D0CA6B5F195318ABB730 /* Pods-Retomo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Retomo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		79C940C6F266FC123529F945F2385645 /* Pods-Retomo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Retomo_Example-umbrella.h"; sourceTree = "<group>"; };
-		7B5AF4B6F3CBF9FB6CBA1EF491F435E7 /* Pods-Retomo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Retomo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		87EF9A8C57D6BE2701C487A1D9B9FE5D /* Pods-Retomo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Retomo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		971123F5A37E36858BF840C2B76C94A2 /* Pods-Retomo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Retomo_Example-Info.plist"; sourceTree = "<group>"; };
+		519CA94FBDC6D5504D66E4C08C2512C4 /* Pods-Retomo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Retomo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		67B5EF8B67C12993EA7FDF8091150715 /* Pods-Retomo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Retomo_Example-umbrella.h"; sourceTree = "<group>"; };
+		72697F8979FC5D80CD123616268799E7 /* Pods-Retomo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Retomo_Example-Info.plist"; sourceTree = "<group>"; };
+		75B37049E89AD34C2FBB1F05DA2D094B /* Pods-Retomo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Retomo_Example.modulemap"; sourceTree = "<group>"; };
+		76BA457374A1CABF6EC14E0AB64E86A5 /* Pods-Retomo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Retomo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7952D8B2B44D464AE5298923FBD05F54 /* Pods-Retomo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Retomo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		817AB4363D1FCA4F4E55FDBB6613428B /* Retomo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Retomo.xcconfig; sourceTree = "<group>"; };
+		949C7DE795B2DA4D56EF26292A54712B /* Pods-Retomo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Retomo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9958183CF1F3750547CADADEE6E17897 /* Pods-Retomo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Retomo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9AFF0644FA90865BF3AC12FF1B387E17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9C5812CDC9F2F38793F20A648D4F9267 /* Pods_Retomo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Retomo_Example.framework; path = "Pods-Retomo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DD5D3B15A1FB8773F04E7C12D45DF79 /* Pods-Retomo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Retomo_Example-dummy.m"; sourceTree = "<group>"; };
-		A20CEACD95CBB2FA64303F3E9209B14F /* Retomo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Retomo.framework; path = Retomo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5DBA80FEA780DB79006785B29FDE92D /* Retomo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Retomo.modulemap; sourceTree = "<group>"; };
-		BC0EB07D45E7841BF503BDB7C0779A6A /* Pods-Retomo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Retomo_Tests.modulemap"; sourceTree = "<group>"; };
-		BD85095A9C8AA1114BD9C566DACA95EF /* Retomo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Retomo-prefix.pch"; sourceTree = "<group>"; };
-		C20627F1C2087231F7F1C0CF8BA8C3A2 /* Pods-Retomo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Retomo_Tests-Info.plist"; sourceTree = "<group>"; };
-		CC1E2F79E70D3EEB4A31CE0F729804CD /* Retomo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Retomo.xcconfig; sourceTree = "<group>"; };
-		D342C95535CB615617A5F947D51DED32 /* Pods-Retomo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Retomo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D9C518BC30D4DC1161406F5AACAFAF00 /* Pods-Retomo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Retomo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DBA2A86E183E24FFE6651E401F3536F3 /* Pods-Retomo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Retomo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DC57283E0BAB2DECFCD304D24085D051 /* Retomo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Retomo-dummy.m"; sourceTree = "<group>"; };
-		DF4502660089D33447E8A23614BDEE1E /* Pods-Retomo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Retomo_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EA757EB0D8250F551DBF349431B1FA5E /* Pods-Retomo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Retomo_Example.modulemap"; sourceTree = "<group>"; };
+		A71C3BC6AD41FD3D79B3949DAEF19FA3 /* Pods-Retomo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Retomo_Tests-Info.plist"; sourceTree = "<group>"; };
+		AE4963D1A5829B6A6FF761519F3D4FEA /* Pods-Retomo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Retomo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8B1966CFC6E52932A9A989FDCBEA3FC /* Pods-Retomo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Retomo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C66979C924A5C9773B1FFD0EA32B8D80 /* Pods-Retomo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Retomo_Tests-dummy.m"; sourceTree = "<group>"; };
+		D75250AAFC690748809553653F426EAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F05F3CF6FD6AACE4B4A2F071D3535F03 /* Pods-Retomo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Retomo_Tests.modulemap"; sourceTree = "<group>"; };
+		FE6713B66421B96D9F8659F56C109ADB /* Pods-Retomo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Retomo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,14 +77,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F56C1AE97C2121FEF0341EFC6578004 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		324C630BD1285E05A0F9CBEF3CADA3F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D16FBD1692FDD4586D747B7C73AB2D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,67 +91,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E7A385F7102AD5A97C9B77D9780C90F /* Pods-Retomo_Tests */ = {
+		08B7B031C99B7992BC6D5CDCE949BA9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC0EB07D45E7841BF503BDB7C0779A6A /* Pods-Retomo_Tests.modulemap */,
-				693DC0E05CB2456B264A4B0085BBA9FA /* Pods-Retomo_Tests-acknowledgements.markdown */,
-				7B5AF4B6F3CBF9FB6CBA1EF491F435E7 /* Pods-Retomo_Tests-acknowledgements.plist */,
-				2765C738AB21A51014D950D9D276B3C8 /* Pods-Retomo_Tests-dummy.m */,
-				C20627F1C2087231F7F1C0CF8BA8C3A2 /* Pods-Retomo_Tests-Info.plist */,
-				279D51C99A87FDC0757B32BCBEAF09F7 /* Pods-Retomo_Tests-umbrella.h */,
-				D9C518BC30D4DC1161406F5AACAFAF00 /* Pods-Retomo_Tests.debug.xcconfig */,
-				D342C95535CB615617A5F947D51DED32 /* Pods-Retomo_Tests.release.xcconfig */,
+				9C5812CDC9F2F38793F20A648D4F9267 /* Pods_Retomo_Example.framework */,
+				0395BCBF1BBBD7A9663B9B95E52AE626 /* Pods_Retomo_Tests.framework */,
 			);
-			name = "Pods-Retomo_Tests";
-			path = "Target Support Files/Pods-Retomo_Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		6D61160003B7F7E20250A99C6E9CC918 /* Pods-Retomo_Example */ = {
+		28A295535868A26D4A414E3E84AE2B6E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA757EB0D8250F551DBF349431B1FA5E /* Pods-Retomo_Example.modulemap */,
-				87EF9A8C57D6BE2701C487A1D9B9FE5D /* Pods-Retomo_Example-acknowledgements.markdown */,
-				70E8FCFDE974D0CA6B5F195318ABB730 /* Pods-Retomo_Example-acknowledgements.plist */,
-				9DD5D3B15A1FB8773F04E7C12D45DF79 /* Pods-Retomo_Example-dummy.m */,
-				DF4502660089D33447E8A23614BDEE1E /* Pods-Retomo_Example-frameworks.sh */,
-				971123F5A37E36858BF840C2B76C94A2 /* Pods-Retomo_Example-Info.plist */,
-				79C940C6F266FC123529F945F2385645 /* Pods-Retomo_Example-umbrella.h */,
-				DBA2A86E183E24FFE6651E401F3536F3 /* Pods-Retomo_Example.debug.xcconfig */,
-				57D7FB1BC3B5D0E63844E92DFE86AD6D /* Pods-Retomo_Example.release.xcconfig */,
+				4CF3FB1BAEA6FBD66CD1F80469CF4E83 /* Retomo */,
 			);
-			name = "Pods-Retomo_Example";
-			path = "Target Support Files/Pods-Retomo_Example";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		89C20267E52EF9196C766F027703276E /* Retomo */ = {
+		4CF3FB1BAEA6FBD66CD1F80469CF4E83 /* Retomo */ = {
 			isa = PBXGroup;
 			children = (
-				2063F0B4F3D4E62CF5513BF51B98C1B7 /* Retomo.h */,
-				11CA0F224E38D190280F9D4DA9C97EDB /* Retomo.m */,
-				B94BB51A75EB5EAF694B279ED6612623 /* Pod */,
-				C1ECFCD85E638BFCBB68731C255DBE54 /* Support Files */,
+				D525E857FA02A5134E667C71CDA60A19 /* Pod */,
+				F84E4931718293323CBE18537E8CD3C2 /* Support Files */,
 			);
 			name = Retomo;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		92CC62B45FB6E44977030C83226EAE1F /* Development Pods */ = {
+		65EA3EA1A78E86BF2EF47F4D9157D84F /* Pods-Retomo_Example */ = {
 			isa = PBXGroup;
 			children = (
-				89C20267E52EF9196C766F027703276E /* Retomo */,
+				75B37049E89AD34C2FBB1F05DA2D094B /* Pods-Retomo_Example.modulemap */,
+				76BA457374A1CABF6EC14E0AB64E86A5 /* Pods-Retomo_Example-acknowledgements.markdown */,
+				24B41FF7B2757CDABF75573721892C49 /* Pods-Retomo_Example-acknowledgements.plist */,
+				2442402D4EFAF6248B47E2F4F32D6AA0 /* Pods-Retomo_Example-dummy.m */,
+				72697F8979FC5D80CD123616268799E7 /* Pods-Retomo_Example-Info.plist */,
+				67B5EF8B67C12993EA7FDF8091150715 /* Pods-Retomo_Example-umbrella.h */,
+				949C7DE795B2DA4D56EF26292A54712B /* Pods-Retomo_Example.debug.xcconfig */,
+				7952D8B2B44D464AE5298923FBD05F54 /* Pods-Retomo_Example.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Pods-Retomo_Example";
+			path = "Target Support Files/Pods-Retomo_Example";
 			sourceTree = "<group>";
 		};
-		B94BB51A75EB5EAF694B279ED6612623 /* Pod */ = {
+		A75228694CA0BA3AF991F92132628B3D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F2321A7C0CE03AC598506CFCC07B958 /* LICENSE */,
-				1195363BA01434C9F4EA2FD55193D33D /* README.md */,
-				42349282B791B5ADF83DE4A741EBE672 /* Retomo.podspec */,
+				65EA3EA1A78E86BF2EF47F4D9157D84F /* Pods-Retomo_Example */,
+				D9A53C36D164D67CC3425311FCACD07C /* Pods-Retomo_Tests */,
 			);
-			name = Pod;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -172,38 +151,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C1ECFCD85E638BFCBB68731C255DBE54 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A5DBA80FEA780DB79006785B29FDE92D /* Retomo.modulemap */,
-				CC1E2F79E70D3EEB4A31CE0F729804CD /* Retomo.xcconfig */,
-				DC57283E0BAB2DECFCD304D24085D051 /* Retomo-dummy.m */,
-				111F75EA99498F438DD2C2403C9A7C9F /* Retomo-Info.plist */,
-				BD85095A9C8AA1114BD9C566DACA95EF /* Retomo-prefix.pch */,
-				053051A54B0B9A16A63935751289866D /* Retomo-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Retomo";
-			sourceTree = "<group>";
-		};
-		C3BA92BA5CE233CAE448B1C7F7C2ACFC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9C5812CDC9F2F38793F20A648D4F9267 /* Pods_Retomo_Example.framework */,
-				0395BCBF1BBBD7A9663B9B95E52AE626 /* Pods_Retomo_Tests.framework */,
-				A20CEACD95CBB2FA64303F3E9209B14F /* Retomo.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				92CC62B45FB6E44977030C83226EAE1F /* Development Pods */,
+				28A295535868A26D4A414E3E84AE2B6E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C3BA92BA5CE233CAE448B1C7F7C2ACFC /* Products */,
-				EC5395D8545F6058869C0713A9B9FFE7 /* Targets Support Files */,
+				08B7B031C99B7992BC6D5CDCE949BA9E /* Products */,
+				A75228694CA0BA3AF991F92132628B3D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,13 +170,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC5395D8545F6058869C0713A9B9FFE7 /* Targets Support Files */ = {
+		D525E857FA02A5134E667C71CDA60A19 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6D61160003B7F7E20250A99C6E9CC918 /* Pods-Retomo_Example */,
-				3E7A385F7102AD5A97C9B77D9780C90F /* Pods-Retomo_Tests */,
+				D75250AAFC690748809553653F426EAD /* LICENSE */,
+				9AFF0644FA90865BF3AC12FF1B387E17 /* README.md */,
+				08F6F4834171F3D127FEB36D68783F16 /* Retomo.podspec */,
 			);
-			name = "Targets Support Files";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D9A53C36D164D67CC3425311FCACD07C /* Pods-Retomo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F05F3CF6FD6AACE4B4A2F071D3535F03 /* Pods-Retomo_Tests.modulemap */,
+				B8B1966CFC6E52932A9A989FDCBEA3FC /* Pods-Retomo_Tests-acknowledgements.markdown */,
+				519CA94FBDC6D5504D66E4C08C2512C4 /* Pods-Retomo_Tests-acknowledgements.plist */,
+				C66979C924A5C9773B1FFD0EA32B8D80 /* Pods-Retomo_Tests-dummy.m */,
+				A71C3BC6AD41FD3D79B3949DAEF19FA3 /* Pods-Retomo_Tests-Info.plist */,
+				9958183CF1F3750547CADADEE6E17897 /* Pods-Retomo_Tests-umbrella.h */,
+				FE6713B66421B96D9F8659F56C109ADB /* Pods-Retomo_Tests.debug.xcconfig */,
+				AE4963D1A5829B6A6FF761519F3D4FEA /* Pods-Retomo_Tests.release.xcconfig */,
+			);
+			name = "Pods-Retomo_Tests";
+			path = "Target Support Files/Pods-Retomo_Tests";
+			sourceTree = "<group>";
+		};
+		F84E4931718293323CBE18537E8CD3C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				817AB4363D1FCA4F4E55FDBB6613428B /* Retomo.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Retomo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,15 +213,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D071756E737D8B55D976D0FDF144DAF /* Pods-Retomo_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0E6C50081552A5C72DA343D69BEDE4B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AFE2C77DA56C791738A2AB21A11262BF /* Retomo-umbrella.h in Headers */,
-				6F6811330C746337B277F5A0B3FB3585 /* Retomo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,24 +227,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4322327592F9EE83951358285A2C8282 /* Retomo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58C99B71499D7059EEF693D3AD759368 /* Build configuration list for PBXNativeTarget "Retomo" */;
-			buildPhases = (
-				D0E6C50081552A5C72DA343D69BEDE4B /* Headers */,
-				94DC27544EE0EFD0CB6EF6CFBBDF595D /* Sources */,
-				324C630BD1285E05A0F9CBEF3CADA3F1 /* Frameworks */,
-				EE8F1792365EF4E54684955BFC3C15F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Retomo;
-			productName = Retomo;
-			productReference = A20CEACD95CBB2FA64303F3E9209B14F /* Retomo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		82E1A5FA1E8FA60B71E57E26F16F8A28 /* Pods-Retomo_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAEE1084B74C29B8C69C15303F70CB39 /* Build configuration list for PBXNativeTarget "Pods-Retomo_Example" */;
@@ -328,7 +282,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C3BA92BA5CE233CAE448B1C7F7C2ACFC /* Products */;
+			productRefGroup = 08B7B031C99B7992BC6D5CDCE949BA9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -354,13 +308,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE8F1792365EF4E54684955BFC3C15F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -377,15 +324,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				633D6D72EEC2A6977E5EFB245339F5E7 /* Pods-Retomo_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94DC27544EE0EFD0CB6EF6CFBBDF595D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA6A4819890FE005B3E8C1F31F219FB2 /* Retomo-dummy.m in Sources */,
-				F49CC6C98294E4B76E845E0876B179B1 /* Retomo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +347,7 @@
 /* Begin XCBuildConfiguration section */
 		269B3B136310852F3D7B0203CA465BD1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D342C95535CB615617A5F947D51DED32 /* Pods-Retomo_Tests.release.xcconfig */;
+			baseConfigurationReference = AE4963D1A5829B6A6FF761519F3D4FEA /* Pods-Retomo_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -503,7 +441,7 @@
 		};
 		638CA3A87A8051C459AD7BECBE5C7EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9C518BC30D4DC1161406F5AACAFAF00 /* Pods-Retomo_Tests.debug.xcconfig */;
+			baseConfigurationReference = FE6713B66421B96D9F8659F56C109ADB /* Pods-Retomo_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -598,9 +536,36 @@
 			};
 			name = Debug;
 		};
+		7F07DC23901DCC63C2301924DEE430FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817AB4363D1FCA4F4E55FDBB6613428B /* Retomo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D00AECC39CB2762A8D25CFF53982876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817AB4363D1FCA4F4E55FDBB6613428B /* Retomo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		AB33F78CF7FA34A8CDBB3E073A882CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBA2A86E183E24FFE6651E401F3536F3 /* Pods-Retomo_Example.debug.xcconfig */;
+			baseConfigurationReference = 949C7DE795B2DA4D56EF26292A54712B /* Pods-Retomo_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -625,36 +590,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B7ACCC6BA6100CCAEB997421DABAA75B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC1E2F79E70D3EEB4A31CE0F729804CD /* Retomo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Retomo/Retomo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Retomo/Retomo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Retomo/Retomo.modulemap";
-				PRODUCT_MODULE_NAME = Retomo;
-				PRODUCT_NAME = Retomo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -663,7 +598,7 @@
 		};
 		BBEA6F5BB0F09B6FB9758913D08474E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57D7FB1BC3B5D0E63844E92DFE86AD6D /* Pods-Retomo_Example.release.xcconfig */;
+			baseConfigurationReference = 7952D8B2B44D464AE5298923FBD05F54 /* Pods-Retomo_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -688,37 +623,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BED258415BDE0CD6FA07A26917DEEFB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC1E2F79E70D3EEB4A31CE0F729804CD /* Retomo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Retomo/Retomo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Retomo/Retomo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Retomo/Retomo.modulemap";
-				PRODUCT_MODULE_NAME = Retomo;
-				PRODUCT_NAME = Retomo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -738,15 +642,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58C99B71499D7059EEF693D3AD759368 /* Build configuration list for PBXNativeTarget "Retomo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B7ACCC6BA6100CCAEB997421DABAA75B /* Debug */,
-				BED258415BDE0CD6FA07A26917DEEFB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AAEE1084B74C29B8C69C15303F70CB39 /* Build configuration list for PBXNativeTarget "Pods-Retomo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -761,6 +656,15 @@
 			buildConfigurations = (
 				638CA3A87A8051C459AD7BECBE5C7EAB /* Debug */,
 				269B3B136310852F3D7B0203CA465BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF06557BB57295B9AE7CA5B0ACDAE1F /* Build configuration list for PBXAggregateTarget "Retomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D00AECC39CB2762A8D25CFF53982876 /* Debug */,
+				7F07DC23901DCC63C2301924DEE430FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
