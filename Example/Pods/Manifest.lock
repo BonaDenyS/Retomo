@@ -1,0 +1,16 @@
+PODS:
+  - Retomo (0.1.0)
+
+DEPENDENCIES:
+  - Retomo (from `../`)
+
+EXTERNAL SOURCES:
+  Retomo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Retomo: 205a4165e63df9fd29bbc40d30ed636916dc02bc
+
+PODFILE CHECKSUM: 045c05c3edfafd41ecea07a75dd46275c69a248e
+
+COCOAPODS: 1.7.2

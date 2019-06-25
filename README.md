@@ -22,7 +22,7 @@ pod 'Retomo'
 
 ## Author
 
-bonadenys@gmail.com, bonadenys@gmail.com
+Bona Deny S, bonadenys@gmail.com
 
 ## License
 
