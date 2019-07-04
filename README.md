@@ -9,6 +9,16 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+To make a new connection
+`` Retomo *request = [Retomo alloc]init]; ``
+`` [request setup:(BASE_URL+Endpoint) setMethod:{GET,POST,PUTS} setHeader:(NSDictionary / nil) 
+            withCompletion:^(NSDictionary * result) {
+                    RMModel *model = [[RMModel alloc]init:result];
+                    NSLog(@"Title: %@",model.title);
+                    NSLog(@"Rows: %@",[model.rows[0] valueForKey:@"title"]);
+            }
+     ]; ``
+
 ## Requirements
 
 ## Installation
